@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: .9px;
+}
+h1 ,h2 ,h3,h4,h5,h6{
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.preheader , .preheader li , .preheader a{
+    color: white;
+    background: #1e2f50;
+    font-size: 14px ;
+}
+.icons{
+    margin: 1px;
+}
+.main_nav_SyNo li, .main_nav_SyNo a {
+    margin : 0 10px;
+}
+.main_nav_SyNo h2{
+    color:white;
+}
+.banner-SyNo{
+    height: 85vh;
+
+    opacity: 1;
+
+}
+.banner-SyNo div{
+    max-width: 50%;
+}
+.banner-SyNo h1{
+   font-size: 50px;
+}
+.head_page{
+    background: linear-gradient( #273d66 , #10aa7f);
+    color: white;
+  
+}
+.surcouche{
+    background-image: url("../img/banner_shape.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.BasicButton{
+    outline: none;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 50px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.BasicButton i{
+    margin-right: 5px;
+}
+.back-white{
+    background-color: white;
+    color: #0EB582;
+    font-weight: 600;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    display: inline;
+}
+.back-white:hover{
+    background-color: #56B8A1;
+    color: white;
+    transition: .5s;
+}
+.back-none{
+    background-color:  #56B8A1;
+    color: white;
+    font-weight: 600;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    display: inline;
+}
+.back-green{
+    background-color:  #f0fdfa;
+    color: #0EB582;
+    font-weight: 600;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    display: inline;
+    border: 2px solid;
+    border-color: #0EB582;
+}
+.back-green:hover{
+    background-color: #0EB582;
+    color: white;
+}
+.back-none:hover{
+    background-color: white;
+    color: #0EB582;
+    transition: .5s;
+}
+.bannerButtons{
+    padding: 0;
+    width: 100%;
+}
+.mr{
+    margin-right: 20px ;
+}
+.synoUnerline{
+    border-bottom: solid 5px;
+    border-bottom-color: #0EB582;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.Dancing-family{
+    font-family: 'Dancing Script', cursive;
+}
+.w50_perc{
+    max-width : 50%
+}
+.description_about{
+    border-left: solid 1px;
+    border-left-color: #0EB582;
+    padding-left: 10px;
+    color:grey
+}
+.card_about{
+    border: 2px solid;
+    border-color: #b2eddb;
+    padding: 40px;
+    min-height: 233px;
+    border-radius: 20px;
+    color: #0EB582;
+    background-color: #f0fdfa;
+    min-width: 155px;
+}
+.card_about .visible i{
+    font-size: 70px;
+}
+.card_about span{
+    color: #93d8c3;
+}
+.minus-color{
+    color: #93d8c3;
+}
+.color-grey{
+    color:grey
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+.card-courses{
+    border: 2px solid;
+    border-color: #b2eddb;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 280px;
+    position: relative;
+    transition: .5s;
+    z-index: 4;
+    background-color: white;
+    min-width: 300px;
+
+}
+.card-courses p , .card-courses li{
+    font-size: 15px;
+    line-height: 25px;
+
+}
+.card-courses ul{
+    border: none;
+    background-color: #10aa7f;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+}
+.card-courses:hover{
+    box-shadow:  10px 20px 0 rgb(51 51 51 / 8%);
+    border-color: transparent;
+    transition: .5s;
+    color: inherit;
+}
+.hover1-false , .hover2-false , .hover1-true , .hover2-true{
+    position: absolute;
+    z-index: 2;
+    color: #0EB582;
+
+}
+.hover1-false , .hover2-false{
+    transition: .5s;
+    opacity: 0;
+}
+.hover1-false{
+    width: 80px;
+    height: 80px;
+    background-color: #0EB582;
+    border-radius: 10px;
+}
+.hover2-false{
+    right: 0;
+}
+
+.hover1-true{
+    width: 80px;
+    height: 80px;
+    background-color: #0EB582;
+    border-radius: 10px;
+    transform: translateX(-20px) translateY(-10px);
+    transition: .5s;
+
+}
+.hover2-true{
+    right: -20px;
+    bottom: -10px;
+    transition: .5s;
+}
